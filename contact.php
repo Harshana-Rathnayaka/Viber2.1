@@ -1,10 +1,20 @@
+<?php
+session_start();
+
+// require_once 'contact/sendEmail.php';
+
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Page || SecLight || Responsive HTML Template</title>
+    <title>Contact Page || Viber 2.1 Advertising</title>
 
     <!-- favicon icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
@@ -41,10 +51,9 @@
             <div class="topbar-one">
                 <div class="container">
                     <div class="topbar-one__left">
-                        <p><i class="fa fa-map-marker"></i>380 St Kilda Road, Melbourne, Australia</p>
                     </div><!-- /.topbar-one__left -->
                     <div class="topbar-one__right">
-                        <p><i class="fa fa-clock"></i>Open Hours: Mon - Sat: 8 am - 5 pm, Sunday: CLOSED</p>
+                        <p><i class="fa fa-clock"></i>Open Hours: Monday - Sunday: 8 am - 5 pm</p>
                     </div><!-- /.topbar-one__right -->
                 </div><!-- /.container -->
             </div><!-- /.topbar-one -->
@@ -59,58 +68,32 @@
                         </div><!-- /.site-header-one__logo -->
                         <div class="main-nav__main-navigation">
                             <ul class="main-nav__navigation-box">
-                                <li class="dropdown">
+                                <li>
                                     <a href="index.html">Home</a>
-                                    <ul>
-                                        <li><a href="index.html">Home One</a></li>
-                                        <li><a href="index-2.html">Home Two</a></li>
-                                        <li><a href="index-3.html">Home Three</a></li>
-                                    </ul>
                                 </li>
-                                <li><a href="about.html">About</a></li>
-                                <li class="dropdown">
-                                    <a href="services.html">Services</a>
-                                    <ul>
-                                        <li><a href="services.html">Services</a></li>
-                                        <li><a href="service-details.html">Service Details</a></li>
-                                    </ul>
+                                <li>
+                                    <a href="services.html">Our Services</a>
                                 </li>
-                                <li class="dropdown">
-                                    <a href="#">Pages</a>
-                                    <ul>
-                                        <li><a href="faq.html">Faq</a></li>
-                                        <li><a href="portfolio.html">Portfolio</a></li>
-                                        <li class="dropdown">
-                                            <a href="team.html">Team</a>
-                                            <ul>
-                                                <li><a href="team.html">Team</a></li>
-                                                <li><a href="team-details.html">Team Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="testimonials.html">Testimonials</a></li>
-                                    </ul>
-                                </li>
-
-                                <li class="dropdown">
-                                    <a href="blog.html">Blog</a>
-                                    <ul>
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="blog-details.html">Blog Details</a></li>
-                                    </ul>
+                                <li>
+                                    <a href="team.html">Our Team</a>
                                 </li>
                                 <li>
                                     <a href="contact.html">Contact</a>
                                 </li>
-                                <li class="search-btn search-popup__toggler">
-                                    <a href="#"><i class="fa fa-search"></i></a>
+                                <li>
+                                    <a href="faq.html">FAQs</a>
                                 </li>
+                                <li>
+                                    <a href="about.html">About</a>
+                                </li>
+
                             </ul><!-- /.main-nav__navigation-box -->
                         </div><!-- /.main-nav__main-navigation -->
                         <div class="main-nav__right">
-                            <a href="tel:3421-221-3259" class="header-cta-btn">
+                            <a href="tel:0774235521" class="header-cta-btn">
                                 <i class="seolight-icon-phone-circle"></i>
                                 <span>(24 hours / 7 days)</span>
-                                <strong>3421 221 3259</strong>
+                                <strong>0774235521</strong>
                             </a><!-- /.header-cta-btn -->
                         </div><!-- /.main-nav__right -->
                     </div><!-- /.inner-container -->
@@ -136,10 +119,11 @@
                 <div class="block-title text-center">
                     <div class="block-title__line"></div><!-- /.block-title__line -->
                     <h3>Contact us for any help</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do <br> eiusmod tempor incididunt ut
-                        labore et dolore.</p>
+                    <p>Get in touch with us for anything you need.</p>
                 </div><!-- /.block-title text-center -->
                 <div class="row">
+                    <div class="col-lg-2">
+                    </div><!-- /.col-lg-6 -->
                     <div class="col-lg-4">
                         <div class="contact-info-one__single">
                             <div class="contact-info-one__icon">
@@ -147,8 +131,8 @@
                             </div><!-- /.contact-info-one__icon -->
                             <div class="contact-info-one__content">
                                 <h3>Call us now:</h3>
-                                <h4><a href="tel:421-887-8822">(421) 887 8822</a></h4>
-                                <p>Lorem ipsum dolor sit amet, contop sectetur adipisicing elit, sed.</p>
+                                <h4><a href="tel:0774235521">0774235521</a></h4>
+                                <p>You can call us at anytime during the work days.</p>
                             </div><!-- /.contact-info-one__content -->
                         </div><!-- /.contact-info-one__single -->
                     </div><!-- /.col-lg-4 -->
@@ -158,26 +142,13 @@
                                 <i class="fa fa-envelope"></i>
                             </div><!-- /.contact-info-one__icon -->
                             <div class="contact-info-one__content">
-                                <h3>Mail for any help:</h3>
-                                <h4><a href="mailto:info@seolight.com">info@seolight.com</a></h4>
-                                <p>Lorem ipsum dolor sit amet, contop sectetur adipisicing elit, sed do eius mod tempor
-                                    incididunt.</p>
+                                <h3>Mail us for any help:</h3>
+                                <h4><a href="mailto:v21advertising@gmail.com">v21advertising@gmail.com</a></h4>
+                                <p>You can contact us via email at any time.</p>
                             </div><!-- /.contact-info-one__content -->
                         </div><!-- /.contact-info-one__single -->
                     </div><!-- /.col-lg-4 -->
-                    <div class="col-lg-4">
-                        <div class="contact-info-one__single">
-                            <div class="contact-info-one__icon">
-                                <i class="fa fa-map-marker-alt"></i>
-                            </div><!-- /.contact-info-one__icon -->
-                            <div class="contact-info-one__content">
-                                <h3>Location:</h3>
-                                <h4>530 Hunk Road, Newyork</h4>
-                                <p>Lorem ipsum dolor sit amet, contop sectetur adipisicing elit, sed do eius mod tempor
-                                    incididunt.</p>
-                            </div><!-- /.contact-info-one__content -->
-                        </div><!-- /.contact-info-one__single -->
-                    </div><!-- /.col-lg-4 -->
+
                 </div><!-- /.row -->
             </div><!-- /.container -->
         </section><!-- /.contact-info-one -->
@@ -185,54 +156,48 @@
         <section class="contact-one">
             <div class="container">
                 <div class="row no-gutters">
-                    <div class="col-lg-6">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd"
-                            class="google-map__contact" allowfullscreen></iframe>
+                    <div class="col-lg-3">
                     </div><!-- /.col-lg-6 -->
                     <div class="col-lg-6">
-                        <form action="assets/inc/sendemail.php" class="contact-one__form contact-form-validated">
+                        <form action="contact/sendEmail.php" method="POST" class="contact-one__form contact-form-validated">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <input type="text" placeholder="Full Name" name="name">
+                                    <input type="text" placeholder="Full Name" name="name" >
                                 </div><!-- /.col-md-12 -->
                                 <div class="col-md-12">
-                                    <input type="text" placeholder="Email" name="email">
+                                    <input type="email" placeholder="Email" name="email">
                                 </div><!-- /.col-md-12 -->
                                 <div class="col-md-12">
-                                    <select name="discussion" class="selectpicker">
-                                        <option value="0">Select Topic</option>
-                                        <option value="0">Select Topic</option>
-                                        <option value="0">Select Topic</option>
-                                        <option value="0">Select Topic</option>
+                                    <input type="text" placeholder="Contact Number" name="contact">
+                                </div><!-- /.col-md-12 -->
+                                <div class="col-md-12">
+                                    <select name="subject" class="selectpicker">
+                                        <option value="Social Media Marketing">Social Media Marketing</option>
+                                        <option value="Creative Designing">Creative Designing</option>
+                                        <option value="Web Development">Web Development</option>
+                                        <option value="Mobile Application Development">Mobile Application Development</option>
+                                        <option value="Software Development">Software Development</option>
+                                        <option value="Photography">Photography</option>
+                                        <option value="YouTube Subscribers & Watch Time">YouTube Subscribers & Watch Time</option>
+                                        <option value="Something Else">Something Else</option>
                                     </select><!-- /# -->
                                 </div><!-- /.col-md-12 -->
                                 <div class="col-md-12">
-                                    <textarea placeholder="write.."></textarea>
+                                    <textarea name="requirement" placeholder="Your requirement.."></textarea>
                                 </div><!-- /.col-md-12 -->
                                 <div class="col-md-12">
-                                    <button type="submit" class="thm-btn contact-one__btn">Submit</button>
+                                    <button type="submit" name="contactBtn" class="thm-btn contact-one__btn">Submit</button>
                                 </div><!-- /.col-md-12 -->
+                                <div class="result"> <?php echo $_SESSION['result'];?> </div><!-- /.result -->
                             </div><!-- /.row -->
+                            
                         </form><!-- /.contact-one__form -->
-                        <div class="result"></div><!-- /.result -->
+                        
+
                     </div><!-- /.col-lg-6 -->
                 </div><!-- /.row no-gutters -->
             </div><!-- /.container -->
         </section><!-- /.contact-one -->
-
-        <section class="cta-one wow fadeInUp" data-wow-duration="1500ms">
-            <div class="container ">
-                <div class="inner-container ">
-                    <h3>Want to contact with <span>us?</span></h3>
-
-                    <div class="cta-one__btn-block">
-                        <a href="contact.html" class="thm-btn cta-one__btn">Get a quote</a>
-                        <!-- /.thm-btn cta-one__btn -->
-                    </div><!-- /.cta-one__btn-block -->
-                </div><!-- /.inner-container -->
-            </div><!-- /.container -->
-        </section><!-- /.cta-one -->
 
         <footer class="site-footer site-footer__two">
 
